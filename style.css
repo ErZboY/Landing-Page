@@ -1,0 +1,218 @@
+body {
+margin:0px
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap:8px;
+    background-color:#1f2937 ;
+    color: #f9faf8;
+}
+.links-header {
+    display: flex;
+    gap: 20999px;
+    flex-wrap: wrap;
+    margin-right: 300px;
+}
+.logo{
+margin-left: 300px;
+margin-top:10px;
+}
+ul{
+display: flex;
+gap: 15px;
+}
+li {
+list-style: none;
+font-size:18px;
+color: #e5e7eb;
+}
+.hero {
+background-color:#1f2937;
+margin-top: 0;
+display: flex;
+justify-content: space-between;
+height:350px;
+color:#f9faf8;
+} 
+.links-oben {
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+flex-wrap: wrap;
+margin-left: 300px;
+width: 500px;
+}
+.Header-text{
+    font-size:18px;
+    color: #e5e7eb;
+}
+.essen-bild {
+margin-right: 300px;
+}
+.essen-bild2{
+border-radius: 10%;
+}
+h6 {
+    color: #f9faf8;
+font-weight: bolder;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.button-oben {
+margin-top:20px;
+background-color: #3882f6;
+border:0px;
+text-align: center;
+border-radius: 4px;
+color: white;
+font-weight: bold;
+width: 20%;
+}
+.bilder-abschnitt {
+    color: #1f2937;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:center;
+text-align: center;
+}
+.rezept-bilder {
+display: flex;
+justify-content: center;
+gap:80px;
+flex:0 0 auto
+}
+.rezepte {
+    object-position: 10%;
+    object-fit: cover;
+width: 200px;
+height: 200px;
+border-radius: 10%;
+border-style: solid;
+border-width: 5px;
+color: #3882f6;
+}
+.rezepte-text {
+    font-size: 16px;
+    width: 1040px;
+display: flex;
+gap:100px;
+justify-content: center;
+align-items: center;
+}
+.bilder-überschrift {
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
+}
+.rezepte-überschrift {
+margin: 40px;
+}
+.zitat-abschnitt {
+display: flex;
+justify-content: center;
+height: 400px;
+background-color: #e5e7eb;
+
+}
+.zitate {
+    width: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+ }
+.zitat-schöpfer{
+display: block;
+text-align: right;
+margin:0px;
+width: 500px;
+font-size: 36px;
+}
+.zitat-text {
+    color:#1f2937;
+    margin-bottom: 0px;
+    font-size: 30px;
+ font-weight:lighter;
+font-style:italic;
+}
+
+.unten {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.unten2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+    background-color: #3882f6;
+ display: flex;
+ text-align: left;
+ flex-direction:row;
+ align-items: center;
+ 
+}
+.überschrift {
+margin-bottom: 0;
+font-weight: bold;
+color: #f9faf8;
+}
+.text-unten {
+margin-top: 0px;
+color: #f9faf8;
+font-family:'times  new roman'
+}
+.button-unten {
+    border-color: #f9faf8;
+    font-weight: bold;
+    color:#f9faf8;
+border-radius: 5px;
+margin-left:70px;
+background-color:#3882f6
+}
+
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1f2937;
+color: #f9faf8;
+margin-top: 50px;
+height:100px ;
+}
+
+.karte {
+
+border-top-width: 2px;
+border-radius: 20px;
+border-color: black;
+}
+
+.karten-abschnitt {
+display: flex;
+justify-content: center;
+gap:300px;
+margin-top: 50px;
+background-color:#e5e7eb;
+padding-bottom: 20px;
+padding-top: 20px;
+font-style: oblique;
+
+}
+.adresse {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
